@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c5a69c08674f618b64ec71e2d5b09d, type: 3}
+  m_Name: Localization
+  m_EditorClassIdentifier: 
+  localizationKeysList:
+  - key: PLAY_BUTTON
+    translations:
+    - language: 10
+      translation: Play
+    - language: 30
+      translation: "\u0418\u0433\u0440\u0430\u0442\u044C"
+  - key: GARAGE_TITLE
+    translations:
+    - language: 10
+      translation: Garage
+    - language: 30
+      translation: "\u0413\u0430\u0440\u0430\u0436"
+  - key: OK
+    translations:
+    - language: 10
+      translation: Ok
+    - language: 30
+      translation: "\u041E\u043A"
+  - key: SELECT_BUTTON
+    translations:
+    - language: 10
+      translation: Select
+    - language: 30
+      translation: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C"
+  - key: SELECTED_STATE
+    translations:
+    - language: 10
+      translation: Selected
+    - language: 30
+      translation: "\u0412\u044B\u0431\u0440\u0430\u043D\u043E"
+  - key: PAUSE_TITLE
+    translations:
+    - language: 10
+      translation: Pause
+    - language: 30
+      translation: "\u041F\u0430\u0443\u0437\u0430"
+  - key: RESUME_BUTTON
+    translations:
+    - language: 10
+      translation: Resume
+    - language: 30
+      translation: "\u0412 \u0438\u0433\u0440\u0443"
+  - key: MENU_BUTTON
+    translations:
+    - language: 10
+      translation: Menu
+    - language: 30
+      translation: "\u041C\u0435\u043D\u044E"
+  - key: FINISH_TITLE
+    translations:
+    - language: 10
+      translation: Game over
+    - language: 30
+      translation: "\u0418\u0433\u0440\u0430 \u043E\u043A\u043E\u043D\u0447\u0435\u043D\u0430"
+  - key: AGAIN_BUTTON
+    translations:
+    - language: 10
+      translation: Again
+    - language: 30
+      translation: "\u0417\u0430\u043D\u043E\u0432\u043E"
+  - key: SCORE_INDICATOR
+    translations:
+    - language: 10
+      translation: 'Score:'
+    - language: 30
+      translation: "\u0421\u0447\u0435\u0442:"
+  - key: TIME_INDICATOR
+    translations:
+    - language: 10
+      translation: 'Time:'
+    - language: 30
+      translation: "\u0412\u0440\u0435\u043C\u044F:"
+  - key: FUEL_INDICATOR
+    translations:
+    - language: 10
+      translation: 'Fuel:'
+    - language: 30
+      translation: "\u0422\u043E\u043F\u043B\u0438\u0432\u043E:"
+  - key: TARGET_INDICATOR
+    translations:
+    - language: 10
+      translation: 'To target:'
+    - language: 30
+      translation: "\u0414\u043E \u0446\u0435\u043B\u0438:"
+  - key: PAUSE_DESCRIPTION
+    translations:
+    - language: 10
+      translation: Drive to the goal!
+    - language: 30
+      translation: "\u0414\u0432\u0438\u0433\u0430\u0439\u0442\u0435\u0441\u044C
+        \u043A \u0446\u0435\u043B\u0438!"
+  - key: FINISH_DESCRIPTION
+    translations:
+    - language: 10
+      translation: Come back again!
+    - language: 30
+      translation: "\u0412\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0439\u0442\u0435\u0441\u044C
+        \u043A \u043D\u0430\u043C \u0435\u0449\u0451!"
+  - key: LND_DESCRIPTION
+    translations:
+    - language: 10
+      translation: Car for serious people
+    - language: 30
+      translation: "\u0410\u0432\u0442\u043E\u043C\u043E\u0431\u0438\u043B\u044C
+        \u0434\u043B\u044F \u0441\u0435\u0440\u044C\u0435\u0437\u043D\u044B\u0445
+        \u043B\u044E\u0434\u0435\u0439"
+  - key: NAVI_DESCRIPTION
+    translations:
+    - language: 10
+      translation: Optimal choice
+    - language: 30
+      translation: "\u041E\u043F\u0442\u0438\u043C\u0430\u043B\u044C\u043D\u044B\u0439
+        \u0432\u044B\u0431\u043E\u0440"
+  - key: JIMBO_DESCRIPTION
+    translations:
+    - language: 10
+      translation: Humble little boy
+    - language: 30
+      translation: "\u0421\u043A\u0440\u043E\u043C\u043D\u044B\u0439 \u043C\u0430\u043B\u044B\u0448"
+  - key: LND_TITLE
+    translations:
+    - language: 10
+      translation: LnD
+    - language: 30
+      translation: "\u041B\u043D\u0414"
+  - key: NAVI_TITLE
+    translations:
+    - language: 10
+      translation: Navi
+    - language: 30
+      translation: "\u041D\u0430\u0432\u0438"
+  - key: JIMBO_TITLE
+    translations:
+    - language: 10
+      translation: Jimbo
+    - language: 30
+      translation: "\u0414\u0436\u0438\u043C\u0431\u043E"
+  - key: METERS_SHORT
+    translations:
+    - language: 10
+      translation: m.
+    - language: 30
+      translation: "\u043C."
+  - key: LOADING
+    translations:
+    - language: 10
+      translation: Loading...
+    - language: 30
+      translation: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430..."

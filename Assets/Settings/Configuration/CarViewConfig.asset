@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3be333e7f7641ebb3c5c56f2bbb6a8d, type: 3}
+  m_Name: CarViewConfig
+  m_EditorClassIdentifier: 
+  carContainerList:
+  - identifier: 1
+    carName: NAVI_TITLE
+    carDescription: NAVI_DESCRIPTION
+    icon: {fileID: 21300000, guid: 1695effa5c5754e3e9b3323493e1b950, type: 3}
+    carPrefab: {fileID: 11400002, guid: c2990f210198b6c4b90d88af14a447ae, type: 3}
+  - identifier: 2
+    carName: LND_TITLE
+    carDescription: LND_DESCRIPTION
+    icon: {fileID: 21300000, guid: 8616d3c7e2eac46809ce5498ddc4c07a, type: 3}
+    carPrefab: {fileID: 11400002, guid: 9b7981e162f346a498276c17ce6062a0, type: 3}
+  - identifier: 3
+    carName: JIMBO_TITLE
+    carDescription: JIMBO_DESCRIPTION
+    icon: {fileID: 21300000, guid: d330f052745f54613a91c116d396340d, type: 3}
+    carPrefab: {fileID: 11400002, guid: 585cd33faa7132945a1dbb7585993cce, type: 3}

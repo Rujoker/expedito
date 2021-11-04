@@ -1,0 +1,12 @@
+Library
+Temp
+obj
+Logs
+Logs
+Assembly-CSharp.csproj
+UserSettings/EditorUserSettings.asset
+*.aab
+*.apk
+*.idea
+*.csproj
+*.sln
